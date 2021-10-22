@@ -1,8 +1,41 @@
-nav{
-    position: sticky;
+nav {
+  position: sticky;
 }
-img{
+#header_img {
+  width: 80px;
+  height: 80px;
+}
 
-    width: 200px;
-    height: 200px;
+header {
+  background-color: cornflowerblue;
+  padding: 10;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-bar {
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+#nav-bar ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  header {
+    background-color: lightblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
